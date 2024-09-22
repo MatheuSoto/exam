@@ -8,26 +8,31 @@ This project utilizes **Drizzle**, **PostgreSQL**, and **Express**. The choice o
 
 To run the project, follow these steps:
 
+1. **Run Docker Compose**
+   First, ensure that Docker Compose is installed on your system. You can download it from the official Docker website.
+   Once Docker Compose is installed, run the following command to start the PostgreSQL container:
+   docker-compose up -d
+
 1. **Install Dependencies**
    Run the following command to install the required dependencies:
    npm install
 
-2. **Create .env File**
+1. **Create .env File**
    Copy the `.env.example` file to `.env` and update the environment variables as needed.
 
-3. **Generate Migrations**
+1. **Generate Migrations**
    Execute the following command to generate migrations for the database:
    npm run db:generate
 
-4. **Run Migrations**
+1. **Run Migrations**
    Next, run the migrations with this command:
    npm run db:push
 
-5. **Drizzle Studio**
+1. **Drizzle Studio**
    Optionally, you can use Drizzle Studio to verify that everything is correct in the database.
    npm run studio
 
-6. **Start the Project**
+1. **Start the Project**
    Finally, you can start the project with:
    npm run build
    npm run start
