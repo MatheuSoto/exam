@@ -30,9 +30,6 @@ To run the project, follow these steps:
    Finally, you can start the project with:
    npm run build npm run start
 
-markdown
-Copy code
-
 ## API Endpoints
 
 - **GET /api/articles**
