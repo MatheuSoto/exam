@@ -17,18 +17,20 @@ To run the project, follow these steps:
 
 3. **Generate Migrations**
    Execute the following command to generate migrations for the database:
-   npm run db
+   npm run db:generate
 
 4. **Run Migrations**
    Next, run the migrations with this command:
-   npm run db
+   npm run db:push
 
 5. **Drizzle Studio**
    Optionally, you can use Drizzle Studio to verify that everything is correct in the database.
+   npm run studio
 
 6. **Start the Project**
    Finally, you can start the project with:
-   npm run build npm run start
+   npm run build
+   npm run start
 
 ## API Endpoints
 
